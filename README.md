@@ -1,1 +1,6 @@
 # The-Task-Manager
+
+A nodeJs and MongoDB based task manager webapp.....
+
+
+continued....
