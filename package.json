@@ -1,0 +1,23 @@
+{
+  "name": "The-Task-Manager",
+  "version": "1.0.0",
+  "description": "A nodeJs and mongoDB based task manager webapp. It has used Rest APIs and Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it5prasoon/The-Task-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it5prasoon/The-Task-Manager/issues"
+  },
+  "homepage": "https://github.com/it5prasoon/The-Task-Manager#readme",
+  "dependencies": {
+    "mongodb": "^3.5.8"
+  }
+}
