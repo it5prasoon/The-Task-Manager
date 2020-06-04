@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/it5prasoon/The-Task-Manager#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mongodb": "^3.5.8",
     "mongoose": "^5.9.17",
     "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
