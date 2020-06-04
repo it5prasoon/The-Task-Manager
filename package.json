@@ -4,7 +4,9 @@
   "description": "A nodeJs and mongoDB based task manager webapp. It has used Rest APIs and Mongoose.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
