@@ -10,8 +10,16 @@ const Task = mongoose.model('Task', {
     completed: {
         type: Boolean,
         default: false
+    },
+    owner: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'User'
     }
 })
+
+
+
 
 // const me = new Task({
 //     description: "Read the books",
